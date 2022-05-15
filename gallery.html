@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mysearch.css">
+	<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3555/3555916.png" type = "image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3555/3555916.png" type = "image/x-icon">
+
+</head>
+<style>
+body
+/*{
+	background-image : url('img1.jpg');
+	attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+}*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+ /* image hover*/
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #797e7d;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+</style>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <center>
+
+    <table align='center'><tr>
+    <td>
+    <img align='left'
+    width='80%' 
+    height='80%' 
+    src="https://logopond.com/logos/a9368a039f07f0a2490d891e5d6cdbd8.png"></img>
+    
+    </td>
+    <td>
+    <p>
+    <font size='18'><i><b>Wooden Store</b></i></font>
+    </p>
+    </td>
+    <td>
+    </td></tr></table>
+    <marquee><font size='5%'
+    color='red'><i><b><h4>The wood that enhances the beauty of your home</h4></b></i></font></marquee>
+    
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Products
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+    <li><a href="toys.html">Toys</a></li>
+    <li><a href="home accessories.html">Home Accessories</a></li>
+  </ul>
+</li>
+  <a class="active" href="gallery.html">Gallery</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</div>
+<br>
+<table>
+  <tr>
+    <td>
+      <a href="sofa.html">
+      <figure>
+      <img id="myImg" class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ68ah4tkmC9UnuwRVYxhVpRdeLbv0fmKrIgw&usqp=CAU" style="width: 400px; height:410px;" alt="missing" />
+      <figcaption><font color="black">Sofa</font></figcaption>
+    </figure>
+    </td>&nbsp;&nbsp;&nbsp;&nbsp;
+    <td>
+      <figure>
+      <a href="truck.html">
+      <img id="myImg" class="img-responsive" src="http://yesofcorsa.com/wp-content/uploads/2017/11/Wooden-Toys-Best-Wallpaper.jpg" style="width:400px; height: 400px;">
+      <figcaption><font color="black">Truck</font></figcaption>
+    </figure>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+<table align="center" >
+  <tr>
+<td>
+  <figure>
+    <a href="window.html">
+    <img id="myImg" class="img-responsive" src="https://5.imimg.com/data5/UP/EY/MY-38053042/wooden-window-500x500.jpg" style="width:400px; height: 400px;">
+    <figcaption><font color="black">Window</font></figcaption>
+  </figure>
+</td>&nbsp;&nbsp;&nbsp;&nbsp;
+<td border="1">
+  <figure>
+  <a href="chair.html">
+  <img id="myImg" class="img-responsive" src="https://i5.walmartimages.com/asr/0d5b7231-e9b6-4530-9022-1a0a403cfc99.a186ed827a9a5a70ca426316be03d96a.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" style="width:400px;" alt="chair">
+  <figcaption><font color="black">chair</font></figcaption>
+</figure>
+</td>
+</tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <a href="printed.html">
+      <figure>
+      <img id="myImg" class="img-responsive" src="https://www.treehousetoys.co.uk/wp-content/uploads/2020/02/20200124_155151-scaled.jpg" style="width: 410px; height: 350px;" alt="printed car" />
+      <figcaption><font color="black">printed wooden car</font></figcaption>
+    </figure>
+    </td>&nbsp;&nbsp;
+    <td>
+      <figure>
+      <a href="rainbow.html">
+      <img id="myImg" class="img-responsive" src="https://www.todaysparent.com/wp-content/uploads/2019/04/5wooden-toys-your-kids-will-actually-play-with1280x960.jpg" style="width:450px;">
+      <figcaption><font color="black">Giggles-abacus</font></figcaption>
+    </figure>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+
+<hr>
+<footer>
+  <h5 align='center'>Owner: Sameet Velip<br>
+  <a href="mailto:sameet@email.com">sameet@email.com</a></h5>
+</footer>
+</body>
+</html>

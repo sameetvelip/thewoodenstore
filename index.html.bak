@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wooden Store</title>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+<link rel="stylesheet" href="mySearch.css">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3555/3555916.png" type = "image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+</head>
+<body><table align="right">
+<tr>
+<td><button><a href="login.html">Login</a></button></td>
+<td><button><a href="register.html">Register</a></button></td></tr></table>
+
+<table align='center'>
+<tr>
+<td>
+<img align='left'
+width='80%' 
+height='80%' 
+src="https://logopond.com/logos/a9368a039f07f0a2490d891e5d6cdbd8.png"></img>
+
+</td>
+<td>
+<p>
+<font size='18'><b><i>Wooden Store</i></b></font>
+<br>
+</p>
+</td>
+
+<td>
+</td></tr></table>
+<marquee><font size='15%'color='red'><i><b>The wood that enhances the beauty of your home</b></i></font></marquee>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Product</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="toys.html">Toys</a>
+    <a href="home accessories.html">Home Accessories</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+  <a href="toys.html">Toys</a>
+  <a href="home accessories.html">Home Accessories</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+
+<br>
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="https://ii1.pepperfry.com/media/catalog/product/c/o/800x400/corby--laminate-sofa-cum-bed-wenge-three-cushion--with-storage-mattress-dark-brown-116-corby--lamina-f9s7aq.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+   <img src="http://yesofcorsa.com/wp-content/uploads/2017/11/Wooden-Toys-Best-Wallpaper.jpg" style="width:90%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="http://2.bp.blogspot.com/-E3jqBgUzxIg/Tz2mC-81EmI/AAAAAAAAASc/nQKwv-WyJ64/s1600/Pyrographed+bread-boards.+at+craft+cottage..jpg" style="width:90%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="https://images-na.ssl-images-amazon.com/images/I/619PS4HAlaL._SL1500_.jpg" style="width:90%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="https://www.architectureartdesigns.com/wp-content/uploads/2017/03/1-26-e1489836228633.jpg" style="width:90%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="https://cdn.listingmirror.com/940/e647d3e4-924e-5181-8e4e-d47bc685de13/medium.jpg" style="width:90%">
+  </div>
+  <div class="caption-container">
+    <div class="caption"></div>
+  </div>  
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+<hr>
+<br>
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://ii1.pepperfry.com/media/catalog/product/c/o/800x400/corby--laminate-sofa-cum-bed-wenge-three-cushion--with-storage-mattress-dark-brown-116-corby--lamina-f9s7aq.jpg" style="width:100%" onclick="currentSlide(1)" alt="SOFA">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://yesofcorsa.com/wp-content/uploads/2017/11/Wooden-Toys-Best-Wallpaper.jpg" style="width:100%" onclick="currentSlide(2)" alt="Truck">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://2.bp.blogspot.com/-E3jqBgUzxIg/Tz2mC-81EmI/AAAAAAAAASc/nQKwv-WyJ64/s1600/Pyrographed+bread-boards.+at+craft+cottage..jpg" style="width:100%" onclick="currentSlide(3)" alt="Home set">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://images-na.ssl-images-amazon.com/images/I/619PS4HAlaL._SL1500_.jpg" style="width:100%" onclick="currentSlide(4)" alt="Key holder">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://www.architectureartdesigns.com/wp-content/uploads/2017/03/1-26-e1489836228633.jpg" style="width:100%" onclick="currentSlide(5)" alt="Dine table">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.listingmirror.com/940/e647d3e4-924e-5181-8e4e-d47bc685de13/medium.jpg" style="width:100%" onclick="currentSlide(6)" alt="Chairs">
+    </div>
+  </div>
+  </div>
+<hr><table align="center" >
+  <tr>
+    <td>
+      <marquee><font size="18" color="black"><i><b>Just click to order</b></i></font></marquee>
+    </td>
+  </tr>
+</table>
+<hr>
+<br>
+<br>
+
+
+<table align="center"  bgcolor="grey">
+  <tr border="1">
+    <td border="1">
+      <a href="sofa.html">
+      <figure>
+      <img id="myImg" class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ68ah4tkmC9UnuwRVYxhVpRdeLbv0fmKrIgw&usqp=CAU" style="width: 400px;" alt="missing" />>
+      <figcaption><font color="black">Sofa</font></figcaption>
+    </figure>
+    </td>
+    <td border="1">
+      <figure>
+      <a href="window.html">
+      <img id="myImg" class="img-responsive" src="https://5.imimg.com/data5/UP/EY/MY-38053042/wooden-window-500x500.jpg" style="width: 400px;" />
+      <figcaption><font color="black">window</font></figcaption>
+    </figure>
+    </td>
+    <td border="1">
+      <figure>
+      <a href="rainbow.html">
+      <img id="myImg" class="img-responsive" src="https://www.todaysparent.com/wp-content/uploads/2019/04/5wooden-toys-your-kids-will-actually-play-with1280x960.jpg" style="width:500px; height: 400px;">
+      <figcaption><font color="black">Giggles-abacus</font></figcaption>
+    </figure>
+    </td>
+  </tr>
+</table>
+<br>
+<footer>
+  <h6 align='center'>Owner: Sameet Velip<br>
+  <a href="mailto:sameet@email.com">sameet@email.com</a></h6>
+</footer>
+
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+
+  // imghover
+  var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+  </script>
+</body>
+</html>
